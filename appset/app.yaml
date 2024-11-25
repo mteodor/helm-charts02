@@ -27,6 +27,6 @@ spec:
         automated:
           selfHeal: true
         syncOptions:
-        - CreateNamespace=true
-        - Validate=true
-        - PruneLast=false
+          - CreateNamespace=true
+          - Validate=true
+          - PruneLast=false
