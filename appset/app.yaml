@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: chart-appset02
+  name: chart02-appset
 spec:
   goTemplate: true
   goTemplateOptions: ["missingkey=error"]
@@ -30,3 +30,4 @@ spec:
           - CreateNamespace=true
           - Validate=true
           - PruneLast=false
+ 
