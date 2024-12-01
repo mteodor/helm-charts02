@@ -15,7 +15,8 @@ spec:
     metadata:
       name: '{{.path.basename}}-02'
     spec:
-      project: 3eb96a4d
+      # project: 3eb96a4d
+      project: 65cce22b
       source:
         repoURL: https://github.com/mteodor/helm-charts02
         targetRevision: HEAD
